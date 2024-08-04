@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <HEAD>
+    <TITLE>Game Eshop</TITLE>
+    <STYLE type="text/css">
+       H1 { text-align: center}
+    </STYLE>
+    <BODY>
+     <H1> Game Eshop</H1>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        body {
+            background-image: url('gamebackground.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            width: 300px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <form id="queryForm" action="QueryServlet" method="get">
+        <label>
+            <input type="checkbox" name="id" value="1">
+            <img src="it_takes_two_image.jpg" alt="It Takes Two" style="width:300px; height:400px";>
+            It Takes Two - Hazelight - $49.49
+        </label>
+        <label>
+            <input type="checkbox" name="id" value="2">
+            <img src="pc_building.jpg" alt="PC Building Simulator" style="width:300px; height:200px";>
+            PC Building Simulator - Spiral House Ltd - $34.9
+        </label>
+        <label>
+            <input type="checkbox" name="id" value="3">
+            <img src="prince.jpg" alt="Saving the Prince" style="width:300px; height:200px";>
+            Saving the Prince - Wen Xuan and Minh - $120
+        </label>
+        <label>
+            <input type="checkbox" name="id" value="4">
+            <img src="red.jpg" alt="Red Dead Redemption" style="width:300px; height:200px";>
+            Red Dead Redemption - Rockstar Games - $79.9
+        </label>
+        <label>
+            <input type="checkbox" name="id" value="5">
+            <img src="red_online.jpg" alt="Red Dead Online" style="width:300px; height:200px";>
+            Red Dead Online - Rockstar Games - $27.9
+        </label>
+        <label>
+            <input type="checkbox" name="id" value="6">
+            <img src="gta.jpg" alt="Grand Theft Auto V" style="width:300px; height:200px";>
+            Grand Theft Auto V - Rockstar Games - $41.8
+        </label>
+        <label>
+            <input type="checkbox" name="id" value="7">
+            <img src="assasssin.jpg" alt="Assassin Creed" style="width:300px; height:200px";>
+            Assassin Creed - Ubisoft - $46.9
+        </label>
+        <label>
+            <input type="checkbox" name="id" value="8">
+            <img src="gow.jpg" alt="God of War" style="width:300px; height:200px";>
+            God of War - Sony - $27.9
+        </label>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
